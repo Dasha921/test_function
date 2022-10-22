@@ -16,7 +16,20 @@ def palindrom(st):
         return True
     else:
         return False
+
+
 print(palindrom("потоп"))
+
+
+def del_spaces(string):
+    result = ' '.join(string.split())
+    return result
+
+
+print(del_spaces(' раз два  три   четыре'))
+
+
+
 
 
 
